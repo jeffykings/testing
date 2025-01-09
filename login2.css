@@ -135,6 +135,16 @@ form button:hover {
     text-decoration: underline;
 }
 
+.error {
+    color: red;
+    font-size: 0.9rem;
+}
+
+input:focus, button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.75);
+}
+
 footer {
     background-color: #343a40;
     color: #fff;
