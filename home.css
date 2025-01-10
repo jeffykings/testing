@@ -91,10 +91,27 @@ header .logo img {
     margin-top: 1rem;
 }
 
+#homeSearchBox {
+    width: 60%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#homeSearchBox:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.75);
+    outline: none;
+}
+
 /* Featured Resources Section */
 .featured-resources {
     padding: 2rem 0;
     text-align: center;
+}
+
+.resource-item .btn:hover {
+    background-color: #0056b3;
 }
 
 .featured-resources h2 {
