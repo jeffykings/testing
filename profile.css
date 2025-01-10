@@ -105,6 +105,15 @@ main h1 {
     background-color: #0056b3;
 }
 
+.profile-info button:hover {
+    background-color: #0056b3;
+    cursor: pointer;
+}
+
+.profile-info h2:hover, .profile-info p:hover {
+    text-decoration: underline;
+}
+
 .uploaded-resources {
     background-color: #fff;
     padding: 2rem;
