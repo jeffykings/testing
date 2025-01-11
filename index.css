@@ -223,14 +223,25 @@ footer ul li a:hover {
         align-items: flex-start;
     }
 
-     .menu-toggle {
-        display: block;
-    }
+    .menu-toggle {
+    display: none;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.menu-toggle .hamburger {
+    width: 25px;
+    height: 3px;
+    background: #fff;
+    margin: 5px 0;
+    transition: all 0.3s;
+}
+
 
     .nav-links {
         display: none;
         flex-direction: column;
-        gap: 0;
         background-color: #343a40;
         padding: 1rem;
         position: absolute;
