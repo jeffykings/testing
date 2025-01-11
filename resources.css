@@ -147,3 +147,58 @@ footer ul li a {
 footer ul li a:hover {
     text-decoration: underline;
 }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .filter-form {
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+
+    .filter-form input,
+    .filter-form select {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .resource-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    .resource-item {
+        padding: 1rem;
+    }
+
+    .resource-item h2 {
+        font-size: 1.4rem;
+    }
+
+    .resource-item p {
+        font-size: 1rem;
+    }
+
+    .resource-item .btn {
+        font-size: 0.9rem;
+        padding: 0.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .filter-form {
+        gap: 0.5rem;
+    }
+
+    .filter-form input,
+    .filter-form select {
+        font-size: 0.9rem;
+    }
+
+    footer ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer ul li {
+        margin: 0.5rem 0;
+    }
+}
