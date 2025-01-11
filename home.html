@@ -6,17 +6,18 @@
     <title>UniCloudlib - Homepage</title>
     <link rel="stylesheet" href="home.css">
     <link rel="icon" href="apple-touch-icon.png" type="image/png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
 </head>
 <body>
     <header>
         <nav>
-            <div class="logo"><img src="logo.png" alt="logo" />
-</div>
+            <div class="logo"><img src="logo.png" alt="logo" /></div>
             <ul>
                 <li><a href="home.html">Home</a></li>
-                <li><a href="login2.html">Upload</a></li>
-                <li><a href="login2.html">Login</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="upload.html">Upload</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="index.html">Logout</a></li>
             </ul>
         </nav>
     </header>
@@ -25,7 +26,8 @@
             <div class="hero-content">
                 <h1>Welcome to UniCloudlib</h1>
                 <p>Find and share academic resources easily.</p>
-                <input type="text" id="homeSearchBox" placeholder="Search resources...">
+                
+               <input type="text" placeholder="Search resources..." id="searchBox">
             </div>
         </section>
         <section class="featured-resources">
@@ -34,7 +36,7 @@
                 <div class="resource-item">
                     <h3>Resource Title</h3>
                     <p>Brief description of the resource.</p>
-                    <a href="#" class="btn" onclick="promptLogin()">Download</a>
+                    <a href="#" class="btn">Read More</a>
                 </div>
                 <!-- Add more resource items as needed -->
             </div>
